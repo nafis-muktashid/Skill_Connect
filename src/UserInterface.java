@@ -66,7 +66,8 @@ public class UserInterface extends JFrame {
         signIn.setText("Sign In");
         signIn.setSize(100,30);
         signIn.setFont(new Font("Arial", Font.BOLD, 15));
-        signIn.setBackground(Color.WHITE);
+        signIn.setBackground(Color.BLACK);
+        signIn.setForeground(Color.WHITE);
         signIn.setFocusable(false);
 
                     // Add-Company-Info Button
@@ -74,7 +75,8 @@ public class UserInterface extends JFrame {
         addCompInfo.setText("ADD INFO");
         addCompInfo.setSize(120,35);
         addCompInfo.setFont(new Font("Arial", Font.BOLD, 13));
-        addCompInfo.setBackground(Color.WHITE);
+        addCompInfo.setBackground(Color.BLACK);
+        addCompInfo.setForeground(Color.WHITE);
         addCompInfo.setFocusable(false);
 
                     // Show-Company-Info button
@@ -82,7 +84,8 @@ public class UserInterface extends JFrame {
         showCompInfo.setText("SHOW INFO");
         showCompInfo.setSize(120,35);
         showCompInfo.setFont(new Font("Arial", Font.BOLD, 13));
-        showCompInfo.setBackground(Color.WHITE);
+        showCompInfo.setBackground(Color.BLACK);
+        showCompInfo.setForeground(Color.WHITE);
         showCompInfo.setFocusable(false);
 
                     // Save-Button
@@ -90,7 +93,8 @@ public class UserInterface extends JFrame {
         saveToFile.setText("SAVE INFO");
         saveToFile.setSize(120,35);
         saveToFile.setFont(new Font("Arial", Font.BOLD, 13));
-        saveToFile.setBackground(Color.WHITE);
+        saveToFile.setBackground(Color.BLACK);
+        saveToFile.setForeground(Color.WHITE);
         saveToFile.setFocusable(false);
 
                     // Delete-Button
@@ -98,7 +102,8 @@ public class UserInterface extends JFrame {
         deleteCompInfo.setText("DELETE INFO");
         deleteCompInfo.setSize(120, 35);
         deleteCompInfo.setFont(new Font("Arial", Font.BOLD, 13));
-        deleteCompInfo.setBackground(Color.WHITE);
+        deleteCompInfo.setBackground(Color.BLACK);
+        deleteCompInfo.setForeground(Color.WHITE);
         deleteCompInfo.setFocusable(false);
 
                     // Edit-Button
@@ -106,7 +111,8 @@ public class UserInterface extends JFrame {
         editCompInfo.setText("EDIT INFO");
         editCompInfo.setSize(120, 35);
         editCompInfo.setFont(new Font("Arial", Font.BOLD, 13));
-        editCompInfo.setBackground(Color.WHITE);
+        editCompInfo.setBackground(Color.BLACK);
+        editCompInfo.setForeground(Color.WHITE);
         editCompInfo.setFocusable(false);
 
                     // BackDelete-Button
@@ -114,7 +120,8 @@ public class UserInterface extends JFrame {
         backDelete.setText("BACK");
         backDelete.setSize(120,35);
         backDelete.setFont(new Font("Arial", Font.BOLD, 13));
-        backDelete.setBackground((Color.WHITE));
+        backDelete.setBackground(Color.BLACK);
+        backDelete.setForeground(Color.WHITE);
         backDelete.setFocusable(false);
         backDelete.setVisible(false);
 
@@ -123,7 +130,8 @@ public class UserInterface extends JFrame {
         backEdit.setText("BACK");
         backEdit.setSize(120,35);
         backEdit.setFont(new Font("Arial", Font.BOLD, 13));
-        backEdit.setBackground((Color.WHITE));
+        backEdit.setBackground((Color.BLACK));
+        backEdit.setForeground(Color.WHITE);
         backEdit.setFocusable(false);
         backEdit.setVisible(false);
 
@@ -132,7 +140,8 @@ public class UserInterface extends JFrame {
         close.setText("X");
         close.setSize(44,30);
         close.setFont(new Font("Arial", Font.BOLD, 15));
-        close.setBackground((Color.WHITE));
+        close.setBackground((Color.BLACK));
+        close.setForeground(Color.WHITE);
         close.setFocusable(false);
         close.setVisible(true);
 
@@ -141,7 +150,8 @@ public class UserInterface extends JFrame {
         closePanel.setText("X");
         closePanel.setSize(44,30);
         closePanel.setFont(new Font("Arial", Font.BOLD, 15));
-        closePanel.setBackground((Color.WHITE));
+        closePanel.setBackground((Color.BLACK));
+        closePanel.setForeground(Color.WHITE);
         closePanel.setFocusable(false);
         closePanel.setVisible(true);
 
@@ -149,8 +159,8 @@ public class UserInterface extends JFrame {
 
 
         //------------------- Logos ------------------------
-        ImageIcon namePic = new ImageIcon("logo_1.png");        //// Name With Logo
-        ImageIcon logo = new ImageIcon("logo_2.png");           //// Application icon on the task bar.
+        ImageIcon namePic = new ImageIcon("D:\\Work_On_Progress\\Skill_Connect\\Skill_Connect\\src\\Images\\logo_new_1.png");        //// Name With Logo
+        ImageIcon logo = new ImageIcon("D:\\Work_On_Progress\\Skill_Connect\\Skill_Connect\\src\\Images\\logo_new_2.png");           //// Application icon on the task bar.
         JLabel nameLogo = new JLabel();
         nameLogo.setHorizontalAlignment(JLabel.CENTER);
         nameLogo.setVerticalAlignment(JLabel.CENTER);
@@ -159,7 +169,7 @@ public class UserInterface extends JFrame {
 
         //----------------- Main panel blue name part --------------------------
         introMain = new JPanel();                                       //// Works like a container. Can have components like frame.
-        introMain.setBackground(new Color(0x000000));
+        introMain.setBackground(new Color(0xFFFFFF));
         introMain.setLayout(new BorderLayout());
         introMain.setOpaque(true);
         introMain.setBounds(0,0, 492,561);
@@ -170,7 +180,7 @@ public class UserInterface extends JFrame {
         //---------------- Main panel Login part ----------------------
         introLogIn = new JPanel();
         introLogIn.setOpaque(true);
-        introLogIn.setBackground(new Color(0x123456));
+        introLogIn.setBackground(new Color(0x37B6FE));
         introLogIn.setLayout(null);
         introLogIn.setBounds(492,0,492,561);
         introLogIn.add(signIn); // signInButton
@@ -197,7 +207,7 @@ public class UserInterface extends JFrame {
         afterSignIn.setVisible(false);
         afterSignIn.setLayout(null);
         afterSignIn.setSize(984,561);
-        afterSignIn.setBackground(new Color(0x123456));
+        afterSignIn.setBackground(new Color(0x37B6FE));
 
 
             //Add Button
